@@ -11,12 +11,12 @@
         android:id="@+id/BakeryParadise"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/inter_medium"
+        android:fontFamily="@font/cedarvillecursive_regular"
         android:text="@string/bakery_paradise"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="42sp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,22 +24,65 @@
         app:layout_constraintVertical_bias="0.174" />
 
     <TextView
-        android:layout_width="385dp"
-        android:layout_height="169dp"
-        android:layout_marginTop="188dp"
+        android:id="@+id/StartDescription"
+        android:layout_width="372dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="13dp"
         android:fontFamily="@font/inter_bold"
-        android:text="The aroma of coffee and the homemade bakery goods will make you fell at home"
+        android:text="@string/the_aroma_of_coffee_and_the_homemade_bakery_goods_will_make_you_fell_at_home"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF"
         android:textSize="32sp"
         android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/BakeryParadise"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="13dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/StartLogin"
+        android:layout_width="372dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_corner_ffc529"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/log_in"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StartDescription"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/StartCreateAccount"
+        android:layout_width="371dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounder_corner_fff9e9"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/create_account"
+        android:textAllCaps="false"
+        android:textColor="#8b6f22"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StartLogin"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="391dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
