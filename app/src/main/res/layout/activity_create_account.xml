@@ -11,7 +11,7 @@
         android:id="@+id/backCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="24dp"
         android:background="#ffffff"
         android:src="@drawable/ic_arrow_back"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +38,7 @@
         android:id="@+id/CreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/inter_bold"
         android:letterSpacing="0.08"
@@ -54,7 +54,7 @@
         android:id="@+id/SignUpCreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="2dp"
         android:fontFamily="@font/inter_regular"
         android:text="@string/sign_up_to_continue"
@@ -66,11 +66,11 @@
 
     <EditText
         android:id="@+id/emailCreate"
-        android:layout_width="372dp"
+        android:layout_width="363dp"
         android:layout_height="48dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
         android:background="@drawable/edit_text"
         android:ems="10"
         android:fontFamily="@font/inter_medium"
@@ -87,15 +87,33 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:id="@+id/phoneCreate"
+        android:layout_width="363dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/edit_text"
+        android:ems="10"
+        android:fontFamily="@font/inter_medium"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:paddingStart="20dp"
+        android:paddingEnd="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#86000000"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailCreate"
+        tools:ignore="Autofill" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp" />
+        app:layout_constraintGuide_begin="24dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"

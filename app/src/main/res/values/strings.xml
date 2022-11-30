@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">Bakery Paradise</string>
     <string name="bakery_paradise">Bakery Paradise</string>
-    <string name="the_aroma_of_coffee_and_the_homemade_bakery_goods_will_make_you_fell_at_home">The aroma of coffee and the homemade bakery goods will make you fell at home</string>
+    <string name="the_aroma_of_coffee_and_the_homemade_bakery_goods_will_make_you_feel_at_home">The aroma of coffee and the homemade bakery goods will make you feel at home</string>
     <string name="log_in">Log In</string>
     <string name="create_account">Create Account</string>
     <string name="sign_up_to_continue">Sign up to continue</string>
     <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
 </resources>
