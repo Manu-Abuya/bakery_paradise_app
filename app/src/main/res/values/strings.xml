@@ -8,4 +8,6 @@
     <string name="email">Email</string>
     <string name="phone_number">Phone Number</string>
     <string name="password">Password</string>
+    <string name="at_least_8_characters">At least 8 characters</string>
+    <string name="include_special_characters">Include special characters</string>
 </resources>
