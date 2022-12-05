@@ -10,4 +10,6 @@
     <string name="password">Password</string>
     <string name="at_least_8_characters">At least 8 characters</string>
     <string name="include_special_characters">Include special characters</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="log_in_to_continue">Log in to continue</string>
 </resources>
